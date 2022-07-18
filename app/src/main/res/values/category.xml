@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--this id_category must be same with id_category server database-->
+    <!--<item>cat_id same with server database value</item> -->
+
+
+   <!-- (1,'Waterfalls','5f65ce60b120f9151fdf5af6'),
+    (2,'Lakes','5f65cf2552e1d9156af84bc9'),
+    (3,'Valleys','5f65cf5452e1d9156af84bca'),
+    (4,'Passes','5f65cf7452e1d9156af84bcb'),
+    (5,'Peaks','5f65cf8652e1d9156af84bcc'),
+    (6,'Forts','5f65cf9952e1d9156af84bcd'),
+    (7,'Treks','5f65cfa752e1d9156af84bce'),
+    (8,'Dams','5f6877248eb76603b2c2173c'),
+    (9,'Historical','5f6877498eb76603b2c2173d'),
+    (10,'Ponds','5f6877788eb76603b2c2173e'),
+    (11,'Hill Stations','600576a7f5c4b8342d9977ba'),
+    (12,'Glaciers','60360055547ceb014ceeb975'),
+    (13,'Bridges','603753f035003c7eb7cef699'),
+    (14,'Religious','604a38ac9bfe7a452f3df395'),
+    (15,'Beaches','609c08ac799f140008f52fea'),
+    (16,'Tourist Spots','60d82e450962f60009a7041c'),
+    (17,'Deserts','60eb3bdc91a38100087e2da8'),-->
+
+
+    <integer-array name="id_category">
+        <item>1</item> <!--Waterfalls-->
+        <item>2</item> <!--Lakes-->
+        <item>3</item> <!--Valleys-->
+        <item>4</item> <!--Passes-->
+        <item>5</item> <!--Peaks-->
+
+        <item>6</item> <!--Forts-->
+        <item>7</item> <!--Treks-->
+        <item>8</item> <!--Dams-->
+        <item>9</item> <!--Historical-->
+        <item>10</item> <!--Ponds-->
+
+        <item>11</item> <!--Hill Stations-->
+        <item>12</item> <!--Glaciers-->
+        <item>13</item> <!--Bridges-->
+        <item>14</item> <!--Religious-->
+        <item>15</item> <!--Beaches-->
+        <item>16</item> <!--Tourist Spots-->
+        <item>17</item> <!--Deserts-->
+    </integer-array>
+
+    <string-array name="category_name">
+<!--        <item>Tourist Destination</item>
+        <item>Food \u0026 Drink</item>
+        <item>Hotels</item>
+        <item>Entertainment</item>
+        <item>Sport</item>
+
+        <item>Shopping</item>
+        <item>Transportation</item>
+        <item>Religion</item>
+        <item>Public Services</item>
+        <item>Money</item>
+
+        <item>Featured Places</item>-->
+
+
+
+
+
+
+        <item>Waterfalls</item>
+        <item>Lakes</item>
+        <item>Valleys</item>
+        <item>Passes</item>
+        <item>Peaks</item>
+
+        <item>Forts</item>
+        <item>Treks</item>
+        <item>Dams</item>
+        <item>Historical</item>
+        <item>Ponds</item>
+
+        <item>Hill Stations</item>
+        <item>Glaciers</item>
+        <item>Bridges</item>
+        <item>Religious</item>
+        <item>Beaches</item>
+        <item>Tourist Spots</item>
+        <item>Deserts</item>
+    </string-array>
+
+    <integer-array name="category_icon">
+        <item>@drawable/ic_nav_tour</item>
+        <item>@drawable/ic_nav_food</item>
+        <item>@drawable/ic_nav_hotels</item>
+        <item>@drawable/ic_nav_ent</item>
+        <item>@drawable/ic_nav_sport</item>
+
+        <item>@drawable/ic_nav_shop</item>
+        <item>@drawable/ic_nav_transport</item>
+        <item>@drawable/ic_nav_religion</item>
+        <item>@drawable/ic_nav_public</item>
+        <item>@drawable/ic_nav_money</item>
+
+        <item>@drawable/ic_nav_featured</item>
+        <item>@drawable/ic_nav_featured</item>
+        <item>@drawable/ic_nav_featured</item>
+        <item>@drawable/ic_nav_featured</item>
+        <item>@drawable/ic_nav_featured</item>
+        <item>@drawable/ic_nav_featured</item>
+        <item>@drawable/ic_nav_featured</item>
+        <item>@drawable/ic_nav_featured</item>
+    </integer-array>
+
+
+</resources>

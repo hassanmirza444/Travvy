@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_category"
+        android:icon="@drawable/ic_menu_category"
+        android:title="Category"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:title="@string/title_nav_all"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/nav_waterfalls"
+                android:title="@string/title_nav_waterfalls" />
+            <item
+                android:id="@+id/nav_lakes"
+                android:title="@string/title_nav_lakes" />
+            <item
+                android:id="@+id/nav_valleys"
+                android:title="@string/title_nav_valleys" />
+            <item
+                android:id="@+id/nav_passes"
+                android:title="@string/title_nav_passes" />
+            <item
+                android:id="@+id/nav_peaks"
+                android:title="@string/title_nav_peaks" />
+            <item
+                android:id="@+id/nav_forts"
+                android:title="@string/title_nav_forts" />
+            <item
+                android:id="@+id/nav_treks"
+                android:title="@string/title_nav_treks" />
+            <item
+                android:id="@+id/nav_dams"
+                android:title="@string/title_nav_dams" />
+            <item
+                android:id="@+id/nav_historical"
+                android:title="@string/title_nav_historical" />
+            <item
+                android:id="@+id/nav_ponds"
+                android:title="@string/title_nav_ponds" />
+            <item
+                android:id="@+id/nav_hill_stations"
+                android:title="@string/title_nav_hill_stations" />
+            <item
+                android:id="@+id/nav_glaciers"
+                android:title="@string/title_nav_glacier" />
+            <item
+                android:id="@+id/nav_bridges"
+                android:title="@string/title_nav_bridges" />
+            <item
+                android:id="@+id/nav_religious"
+                android:title="@string/title_nav_religion" />
+            <item
+                android:id="@+id/nav_beaches"
+                android:title="@string/title_nav_beaches" />
+            <item
+                android:id="@+id/nav_tourist_spots"
+                android:title="@string/title_nav_tourist_spots" />
+            <item
+                android:id="@+id/nav_deserts"
+                android:title="@string/title_nav_deserts" />
+        </menu>
+
+    </item>
+</menu>

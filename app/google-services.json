@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672186682935",
+    "project_id": "copper-aloe-351305",
+    "storage_bucket": "copper-aloe-351305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672186682935:android:bd5cf541c3c6713f08f9b2",
+        "android_client_info": {
+          "package_name": "com.app.travvy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672186682935-mhgpkp3qtaor0v9ba0f9paq1r1q9uabm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqLd-kttCzDmg0iVzWsdYXCeXdvkSLqjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672186682935-mhgpkp3qtaor0v9ba0f9paq1r1q9uabm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

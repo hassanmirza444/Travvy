@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <group android:id="@+id/top_sub">
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@drawable/ic_nav_all"
+                android:title="@string/title_nav_all" />
+
+            <item
+                android:id="@+id/nav_favorites"
+                android:icon="@drawable/ic_nav_fav"
+                android:title="@string/title_nav_fav"
+                app:actionLayout="@layout/menu_counter" />
+
+            <item
+                android:id="@+id/nav_news"
+                android:icon="@drawable/ic_nav_news"
+                android:title="@string/title_nav_news" />
+        </group>
+
+        <item
+            android:id="@+id/nav_waterfalls"
+            android:icon="@drawable/waterfall"
+            android:title="@string/title_nav_waterfalls" />
+        <item
+            android:id="@+id/nav_lakes"
+            android:icon="@drawable/lake"
+            android:title="@string/title_nav_lakes" />
+        <item
+            android:id="@+id/nav_valleys"
+            android:icon="@drawable/valley"
+            android:title="@string/title_nav_valleys" />
+        <item
+            android:id="@+id/nav_passes"
+            android:icon="@drawable/passes"
+            android:title="@string/title_nav_passes" />
+        <item
+            android:id="@+id/nav_peaks"
+            android:icon="@drawable/peak"
+            android:title="@string/title_nav_peaks" />
+        <item
+            android:id="@+id/nav_forts"
+            android:icon="@drawable/fort"
+            android:title="@string/title_nav_forts" />
+        <item
+            android:id="@+id/nav_treks"
+            android:icon="@drawable/trekking"
+            android:title="@string/title_nav_treks" />
+        <item
+            android:id="@+id/nav_dams"
+            android:icon="@drawable/dam"
+            android:title="@string/title_nav_dams" />
+        <item
+            android:id="@+id/nav_historical"
+            android:icon="@drawable/historical"
+            android:title="@string/title_nav_historical" />
+        <item
+            android:id="@+id/nav_ponds"
+            android:icon="@drawable/pond"
+            android:title="@string/title_nav_ponds" />
+        <item
+            android:id="@+id/nav_hill_stations"
+            android:icon="@drawable/hill_station"
+            android:title="@string/title_nav_hill_stations" />
+
+
+        <item
+            android:id="@+id/nav_glaciers"
+            android:icon="@drawable/glacier"
+            android:title="@string/title_nav_glacier" />
+
+
+        <item
+            android:id="@+id/nav_bridges"
+            android:icon="@drawable/bridge"
+            android:title="@string/title_nav_bridges" />
+
+        <item
+            android:id="@+id/nav_religious"
+            android:icon="@drawable/mosque"
+            android:title="@string/title_nav_religion" />
+
+        <item
+            android:id="@+id/nav_beaches"
+            android:icon="@drawable/beach"
+            android:title="@string/title_nav_beaches" />
+
+        <item
+            android:id="@+id/nav_tourist_spots"
+            android:icon="@drawable/tourist_spot"
+            android:title="@string/title_nav_tourist_spots" />
+
+        <item
+            android:id="@+id/nav_deserts"
+            android:icon="@drawable/desert"
+            android:title="@string/title_nav_deserts" />
+
+
+    </group>
+    <!--Tourist Destination-->
+    <!--Food & Drink-->
+    <!--Hotels-->
+    <!--Entertainment-->
+    <!--Sport-->
+    <!--Shopping-->
+    <!--Transportation-->
+    <!--Religion-->
+    <!--Public Services-->
+    <!--Money-->
+
+</menu>
